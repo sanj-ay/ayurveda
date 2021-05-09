@@ -1,16 +1,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
     text-align: center;
 }
-.name{
+
+.name {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px !important;
     font-weight: 900;
-  
-    
 }
 
 .homepage-desc {
@@ -31,8 +36,9 @@ h1 {
     margin: 0 auto;
     float: none;
     margin-bottom: 50px;
-    width: 450px;
     color: #1f1235;
+    background-color: transparent;
+    border: none;
 }
 
 .card-title {
@@ -48,30 +54,34 @@ h1 {
     display: flex;
     margin-bottom: 25px;
 }
-.row-head{
+
+.row-head {
     font-weight: 900;
 }
-.row-span{
+
+.row-span {
     font-size: 18px;
     font-weight: 700;
-
 }
-.button-row{
+
+.button-row {
     display: flex;
     justify-content: center !important;
-
 }
-.appointment-btn{
+
+.appointment-btn {
     background-color: #094067;
     border: none;
 }
-.appointment-btn:hover{
-    background-color:#094067;
+
+.appointment-btn:hover {
+    background-color: #094067;
     border: none;
     opacity: .8;
 }
-.appointment-btn:active{
-    background-color:#094067;
+
+.appointment-btn:active {
+    background-color: #094067;
     border: none;
     opacity: .8;
 }
@@ -87,12 +97,20 @@ h1 {
     border: 1px solid gray;
 }
 
+#doctor-slick {
+    margin: 50px;
+}
+
+#doctor-slick:focus {
+    border: none;
+}
+
 @media (max-device-width: 640px) {
     .homepage-desc {
         width: 100%;
         font-size: 2.0rem;
     }
-    .name{
+    .name {
         font-size: 50px;
     }
 }
