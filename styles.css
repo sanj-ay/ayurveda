@@ -48,6 +48,25 @@ h1 {
     display: flex;
     margin-bottom: 25px;
 }
+.button-row{
+    display: flex;
+    justify-content: center;
+
+}
+.appointment-btn{
+    background-color: #094067;
+    border: none;
+}
+.appointment-btn:hover{
+    background-color:#094067;
+    border: none;
+    opacity: .8;
+}
+.appointment-btn:active{
+    background-color:#094067;
+    border: none;
+    opacity: .8;
+}
 
 .card-sub {
     display: flex;
