@@ -48,9 +48,17 @@ h1 {
     display: flex;
     margin-bottom: 25px;
 }
+.row-head{
+    font-weight: 900;
+}
+.row-span{
+    font-size: 18px;
+    font-weight: 700;
+
+}
 .button-row{
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
 
 }
 .appointment-btn{
