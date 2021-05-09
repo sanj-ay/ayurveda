@@ -89,6 +89,28 @@
     color: #1f1235
 }
 
+.card-logo {
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+.card-row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.card-sub {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.doctor-image {
+    height: 250px;
+    width: 250px;
+    border: 1px solid gray;
+}
 
 .text-light {
     overflow: hidden;
