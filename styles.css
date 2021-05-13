@@ -1,116 +1,126 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: #D3CCE3;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Montserrat", sans-serif;
+  background: #d3cce3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e9e4f0, #d3cce3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .name {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px !important;
-    font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px !important;
+  font-weight: 900;
 }
 
 .homepage-desc {
-    color: #1f1235;
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
+  color: #1f1235;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
 }
 
 .main-img {
-    margin-top: 150px;
-    max-width: -webkit-fill-available;
-    max-width: fill-available;
+  margin-top: 150px;
+  max-width: -webkit-fill-available;
+  max-width: fill-available;
 }
 
 .custom-card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 50px;
-    color: #1f1235;
-    background-color: transparent;
-    border: none;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 50px;
+  color: #1f1235;
+  background-color: transparent;
+  border: none;
 }
 
 .card-title {
-    color: #1f1235
+  color: #1f1235;
 }
 
 .card-logo {
-    font-size: 23px;
-    padding-right: 10px;
+  font-size: 23px;
+  padding-right: 10px;
 }
 
 .card-row {
-    display: flex;
-    margin-bottom: 25px;
+  display: flex;
+  margin-bottom: 25px;
+}
+.doctor-qualifications {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.doctor-field {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 25px !important;
+  font-weight: 800;
 }
 
 .row-head {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .row-span {
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .button-row {
-    display: flex;
-    justify-content: center !important;
+  display: flex;
+  justify-content: center !important;
 }
 
 .appointment-btn {
-    background-color: #094067;
-    border: none;
+  background-color: #f25f4c;
+  border: none;
 }
-
 .appointment-btn:hover {
-    background-color: #094067;
-    border: none;
-    opacity: .8;
+  background-color: #f25f4c;
+  border: none;
+  opacity: 0.8;
 }
 
-.appointment-btn:active {
-    background-color: #094067;
-    border: none;
-    opacity: .8;
+.appointment-btn:focus {
+  background-color: #f25f4c;
+  border: none;
+  opacity: 0.8;
 }
 
 .card-sub {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .doctor-image {
-    height: 250px;
-    width: 250px;
-    border: 1px solid gray;
+  height: 250px;
+  width: 250px;
+  border: 1px solid gray;
 }
 
 #doctor-slick {
-    margin: 50px;
+  margin: 50px;
 }
 
 #doctor-slick:focus {
-    border: none;
+  border: none;
 }
 
 @media (max-device-width: 640px) {
-    .homepage-desc {
-        width: 100%;
-        font-size: 2.0rem;
-    }
-    .name {
-        font-size: 50px;
-    }
+  .homepage-desc {
+    width: 100%;
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 50px;
+  }
 }
