@@ -114,20 +114,38 @@ h1 {
 #doctor-slick:focus {
   border: none;
 }
-footer{
-    display: flex;
-    justify-content: space-between;
+footer {
+  display: flex;
+  justify-content: space-between;
 }
-.address{
-    display: flex;
-    flex-direction: column;
-    
+.address {
+  display: flex;
+  flex-direction: column;
 }
-.social{
-    margin-left: 10px;
+.social {
+  margin-left: 10px;
 }
-.reserved{
-    font-size: 13px;
+.reserved {
+  font-size: 13px;
+}
+.appointment-modal {
+  background-color: teal;
+}
+.whatsapp {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.round {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 1px solid grey !important;
+}
+.modal-qualifications {
+  margin-top: 15px !important;
+  margin-left: 10px !important;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-device-width: 640px) {
   .homepage-desc {
@@ -136,5 +154,12 @@ footer{
   }
   .name {
     font-size: 50px;
+  }
+}
+@media (max-device-width: 576px) {
+  .modal-dialog {
+    max-width: 100% !important;
+    font-size: 2rem;
+    margin: 1.75rem auto;
   }
 }

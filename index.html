@@ -1,278 +1,285 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css"
-      integrity="sha512-YBSrHBAMjFhWHodf0RF58XB/x9lmuwBtyJv1LWDHQa1nOaWNXfG3Etc/lEXfW+qBx8ne79JnzccDs59je/ccVA=="
-      crossorigin="anonymous"
-    />
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css"
+        integrity="sha512-YBSrHBAMjFhWHodf0RF58XB/x9lmuwBtyJv1LWDHQa1nOaWNXfG3Etc/lEXfW+qBx8ne79JnzccDs59je/ccVA=="
+        crossorigin="anonymous" />
     <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <title>AyurBhishak</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div>
-      <div class="container">
-        <h1 class="name">AyurBhishak</h1>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="homepage-desc">
-              <h2 class="display-4">About Us</h2>
+        <div class="container">
+            <h1 class="name">AyurBhishak</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="homepage-desc">
+                        <h2 class="display-4">About Us</h2>
 
-              <p>
-                Most experienced, highly qualified Ayurveda Doctors of different
-                specialties of Ayurveda, working in eminent firms sparing their
-                time for online consultation.
-              </p>
-              <p>
-                You can consult an expert from kerala, for authentic and
-                individualized Ayurvedic treatment as well as Yoga and
-                naturopathic treatment from anywhere in the world, in a
-                convenient way.
-              </p>
-            </div>
-          </div>
+                        <p>
+                            Most experienced, highly qualified Ayurveda Doctors of different
+                            specialties of Ayurveda, working in eminent firms sparing their
+                            time for online consultation.
+                        </p>
+                        <p>
+                            You can consult an expert from kerala, for authentic and
+                            individualized Ayurvedic treatment as well as Yoga and
+                            naturopathic treatment from anywhere in the world, in a
+                            convenient way.
+                        </p>
+                    </div>
+                </div>
 
-          <div class="col-lg-6">
-            <img class="main-img" src="assets/images/banner.svg" alt="Logo" />
-          </div>
+                <div class="col-lg-6">
+                    <img class="main-img" src="assets/images/banner.svg" alt="Logo" />
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="container">
-        <div class="col-lg-12">
-          <h1 class="display-4">Meet Our Doctors</h1>
+        <div class="container">
+            <div class="col-lg-12">
+                <h1 class="display-4">Meet Our Doctors</h1>
+            </div>
+            <div id="doctor-slick">
+                <div class="col-lg-6">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <div style="display: flex; justify-content: flex-start">
+                                <div class="doctor-image card-row"></div>
+                                <div>
+                                    <span class="doctor-field">Dr.Indu Santhosh</span><br />
+                                    <span class="doctor-field">BAMS,MD</span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <div class="card-sub">
+                                    <div class="card-row">
+                                        <i class="bi bi-star-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Specialities</h2>
+                                            <span class="row-span">Medicine,Neurology,Panchakarma</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-briefcase-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Experience</h2>
+                                            <span class="row-span">Officer District Ayurvedic Hospital, Kozhikode</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-megaphone card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Known Languages</h2>
+                                            <span class="row-span">English,Hindi,Malayalam</span>
+                                        </div>
+                                    </div>
+                                    <div class="button-row">
+                                        <button type="button" class="btn btn-primary appointment-btn"
+                                            data-toggle="modal" data-target="#doctorModal">
+                                            Book An Appointment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <div class="doctor-image card-row"></div>
+                            <div class="card-text">
+                                <div class="card-sub">
+                                    <div class="card-row">
+                                        <i class="bi bi-star-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Specialities</h2>
+                                            <span class="row-span">Medicine,Neurology,Panchakarma</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-briefcase-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Experience</h2>
+                                            <span class="row-span">Officer District Ayurvedic Hospital, Kozhikode</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-megaphone card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Known Languages</h2>
+                                            <span class="row-span">English,Hindi,Malayalam</span>
+                                        </div>
+                                    </div>
+                                    <div class="button-row">
+                                        <button type="button" class="btn btn-primary appointment-btn"
+                                            data-toggle="modal" data-target="#doctorModal">
+                                            Book An Appointment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <div class="doctor-image card-row"></div>
+                            <div class="card-text">
+                                <div class="card-sub">
+                                    <div class="card-row">
+                                        <i class="bi bi-star-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Specialities</h2>
+                                            <span class="row-span">Medicine,Neurology,Panchakarma</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-briefcase-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Experience</h2>
+                                            <span class="row-span">Officer District Ayurvedic Hospital, Kozhikode</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-megaphone card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Known Languages</h2>
+                                            <span class="row-span">English,Hindi,Malayalam</span>
+                                        </div>
+                                    </div>
+                                    <div class="button-row">
+                                        <button type="button" class="btn btn-primary appointment-btn"
+                                            data-toggle="modal" data-target="#doctorModal">
+                                            Book An Appointment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <div class="doctor-image card-row"></div>
+                            <div class="card-text">
+                                <div class="card-sub">
+                                    <div class="card-row">
+                                        <i class="bi bi-star-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Specialities</h2>
+                                            <span class="row-span">Medicine,Neurology,Panchakarma</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-briefcase-fill card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Experience</h2>
+                                            <span class="row-span">Officer District Ayurvedic Hospital, Kozhikode</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <i class="bi bi-megaphone card-logo"></i>
+                                        <div>
+                                            <h2 class="row-head">Known Languages</h2>
+                                            <span class="row-span">English,Hindi,Malayalam</span>
+                                        </div>
+                                    </div>
+                                    <div class="button-row">
+                                        <button type="button" class="btn btn-primary appointment-btn"
+                                            data-toggle="modal" data-target="#doctorModal">
+                                            Book An Appointment
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="doctorModal" tabindex="-1" aria-labelledby="doctorModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background-color: #f2f7f5">
+                        <div class="modal-header">
+                            <div class="round"></div>
+                            <div class="modal-qualifications">
+                                <span>Dr.Indu Santhosh</span>
+                                <span>BAMS,MD</span>
+                            </div>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>About</h2>
+                            <p>
+                                (Specialist in Rheumatic disorders, Dermatological disorders,
+                                Neurological disorders, Lifestyle disorders and Preventive
+                                cardiology) Experienced in treating cases of Rheumatic
+                                disorders (Rheumatoid arthritis, Rheumatic fever,
+                                Osteoarthritis etc) Dermatological Disorders (Psoriasis,
+                                Eczema and infections ) Lifestyle disorders
+                                (Diabetes,Hypertension Dyslipidemia) Liver and Kidney
+                                disorders Thyroid disorders. Neurological disorders like
+                                Stroke and Parkinsonism Preventive and supportive treatment in
+                                cardiovascular diseases.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary appointment-modal">
+                                <i class="bi bi-whatsapp whatsapp"></i>Make An Appointment
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="sub-footer">
+                    <div class="socials">
+                        <i class="bi bi-facebook social"></i>
+                        <i class="bi bi-twitter social"></i>
+                        <i class="bi bi-instagram social"></i>
+                    </div>
+                    <span class="reserved"><span>&#174;</span> AyurBhishak All Rights Reserved.</span>
+                </div>
+                <div class="address">
+                    <h4>Address</h4>
+                    <span>
+                        AyurBhishak Consulting,<br />
+                        Puthiya Road,<br />
+                        Arakkakadavu,<br />
+                        Kerala, 682028<br />
+                    </span>
+                </div>
+            </footer>
         </div>
-        <div id="doctor-slick">
-          <div class="col-lg-6">
-            <div class="card custom-card">
-              <div class="card-body">
-                <div style="display: flex; justify-content: flex-start">
-                  <div class="doctor-image card-row"></div>
-                  <div>
-                    <span class="doctor-field">Dr.Indu Santhosh</span><br />
-                    <span class="doctor-field">BAMS,MD</span>
-                  </div>
-                </div>
-                <div class="card-text">
-                  <div class="card-sub">
-                    <div class="card-row">
-                      <i class="bi bi-star-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Specialities</h2>
-                        <span class="row-span"
-                          >Medicine,Neurology,Panchakarma</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-briefcase-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Experience</h2>
-                        <span class="row-span"
-                          >Officer District Ayurvedic Hospital, Kozhikode</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-megaphone card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Known Languages</h2>
-                        <span class="row-span">English,Hindi,Malayalam</span>
-                      </div>
-                    </div>
-                    <div class="button-row">
-                      <button class="btn btn-primary appointment-btn">
-                        Book An Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card custom-card">
-              <div class="card-body">
-                <div class="doctor-image card-row"></div>
-                <div class="card-text">
-                  <div class="card-sub">
-                    <div class="card-row">
-                      <i class="bi bi-star-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Specialities</h2>
-                        <span class="row-span"
-                          >Medicine,Neurology,Panchakarma</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-briefcase-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Experience</h2>
-                        <span class="row-span"
-                          >Officer District Ayurvedic Hospital, Kozhikode</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-megaphone card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Known Languages</h2>
-                        <span class="row-span">English,Hindi,Malayalam</span>
-                      </div>
-                    </div>
-                    <div class="button-row">
-                      <button class="btn btn-primary appointment-btn">
-                        Book An Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card custom-card">
-              <div class="card-body">
-                <div class="doctor-image card-row"></div>
-                <div class="card-text">
-                  <div class="card-sub">
-                    <div class="card-row">
-                      <i class="bi bi-star-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Specialities</h2>
-                        <span class="row-span"
-                          >Medicine,Neurology,Panchakarma</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-briefcase-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Experience</h2>
-                        <span class="row-span"
-                          >Officer District Ayurvedic Hospital, Kozhikode</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-megaphone card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Known Languages</h2>
-                        <span class="row-span">English,Hindi,Malayalam</span>
-                      </div>
-                    </div>
-                    <div class="button-row">
-                      <button class="btn btn-primary appointment-btn">
-                        Book An Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card custom-card">
-              <div class="card-body">
-                <div class="doctor-image card-row"></div>
-                <div class="card-text">
-                  <div class="card-sub">
-                    <div class="card-row">
-                      <i class="bi bi-star-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Specialities</h2>
-                        <span class="row-span"
-                          >Medicine,Neurology,Panchakarma</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-briefcase-fill card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Experience</h2>
-                        <span class="row-span"
-                          >Officer District Ayurvedic Hospital, Kozhikode</span
-                        >
-                      </div>
-                    </div>
-                    <div class="card-row">
-                      <i class="bi bi-megaphone card-logo"></i>
-                      <div>
-                        <h2 class="row-head">Known Languages</h2>
-                        <span class="row-span">English,Hindi,Malayalam</span>
-                      </div>
-                    </div>
-                    <div class="button-row">
-                      <button class="btn btn-primary appointment-btn">
-                        Book An Appointment
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <footer>
-            <div class="sub-footer">
-                <div class="socials">
-                    <i class="bi bi-facebook social"></i>
-                    <i class="bi bi-twitter social"></i>
-                    <i class="bi bi-instagram social"></i>
-                </div>
-                <span class="reserved"><span>&#174;</span> AyurBhishak All Rights Reserved.</span>
-            </div>
-            <div class="address">
-                <h4>Address</h4>
-                <span>
-                    AyurBhishak Consulting,<br>
-                    Puthiya Road,<br> 
-                    Arakkakadavu,<br>
-                    Kerala, 682028<br>
-                </span>
-            </div>
-        </footer>
-      </div>
-    
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        type="text/javascript"
-        src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-      ></script>
-      <script type="text/javascript" src="./index.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="./index.js"></script>
     </div>
-  </body>
+</body>
+
 </html>
