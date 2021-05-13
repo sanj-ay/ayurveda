@@ -114,6 +114,21 @@ h1 {
 #doctor-slick:focus {
   border: none;
 }
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+  }
+  .bold-text {
+    color: black !important;
+  }
+.small{
+    color: black !important;
+}
+.rights{
+    color:black;
+}
+.address{
+    color: black !important;
+}
 
 @media (max-device-width: 640px) {
   .homepage-desc {
