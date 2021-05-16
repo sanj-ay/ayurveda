@@ -38,7 +38,7 @@ h1 {
   margin-bottom: 50px;
   color: #1f1235;
   background-color: transparent;
-  border: none;
+  border: 1px thin grey;
 }
 
 .card-title {
@@ -86,13 +86,13 @@ h1 {
 }
 .appointment-btn:hover {
   background-color: #f25f4c;
-  border: none;
+  border: none !important;
   opacity: 0.8;
 }
 
 .appointment-btn:focus {
   background-color: #f25f4c;
-  border: none;
+  border: none !important;
   opacity: 0.8;
 }
 
