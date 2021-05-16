@@ -38,7 +38,7 @@ h1 {
   margin-bottom: 50px;
   color: #1f1235;
   background-color: transparent;
-  border: 1px thin grey;
+  border: 1px solid grey;
 }
 
 .card-title {
