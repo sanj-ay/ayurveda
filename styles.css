@@ -1,11 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: #d3cce3;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #e9e4f0, #d3cce3);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(120deg, #654ea3 0%,#eaafc8 100%);;
+
+
 }
 
 h1 {
@@ -38,7 +35,7 @@ h1 {
   margin-bottom: 50px;
   color: #1f1235;
   background-color: transparent;
-  border: 1px solid grey;
+  border: thin 1px;
 }
 
 .card-title {
@@ -67,12 +64,12 @@ h1 {
 }
 
 .row-head {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .row-span {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .button-row {
@@ -81,7 +78,7 @@ h1 {
 }
 
 .appointment-btn {
-  background-color: #f25f4c;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
   border: none;
 }
 .appointment-btn:hover {
@@ -129,7 +126,11 @@ footer {
   font-size: 13px;
 }
 .appointment-modal {
-  background-color: teal;
+  background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+ 
+  opacity: 0.9;
+  border: none;
+
 }
 .whatsapp {
   margin-top: 2px;
@@ -139,7 +140,7 @@ footer {
   height: 150px;
   width: 150px;
   border-radius: 100%;
-  border: 1px thin grey !important;
+  border: 1px solid black !important;
 }
 .modal-qualifications {
   margin-top: 15px !important;
