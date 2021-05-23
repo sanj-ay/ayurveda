@@ -52,7 +52,7 @@ doctors.forEach((doctor) => {
 </div>`;
 
   doctormodalhtml += `<div class="modal fade" id="${doctor.image.split('.')[0]}Modal" tabindex="-1" aria-labelledby="${doctor.image.split('.')[0]}ModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog doctor-dialog">
         <div class="modal-content" style="background-color: white;">
             <div class="modal-header" style="border: none;">
                 <div class="round"><img src="./assets/images/${doctor.image}"></div>
