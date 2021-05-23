@@ -18,21 +18,21 @@ doctors.forEach((doctor) => {
                 <div class="card-sub">
                     <div class="card-row">
                         <i class="bi bi-star-fill card-logo"></i>
-                        <div>
+                        <div class="specialities">
                             <h2 class="row-head">Specialities</h2>
                             <span class="row-span">${doctor.specialities}</span>
                         </div>
                     </div>
-                    <div class="card-row">
+                    <div class="card-row experience">
                         <i class="bi bi-briefcase-fill card-logo"></i>
                         <div>
-                            <h2 class="row-head">Experience - ${doctor.years_exp}</h2>
+                            <h2 class="row-head experience">Experience - ${doctor.years_exp}</h2>
                             <span class="row-span">${doctor.current_job}</span>
                         </div>
                     </div>
                     <div class="card-row">
                         <i class="bi bi-megaphone-fill card-logo"></i>
-                        <div>
+                        <div class="lang">
                             <h2 class="row-head">Known Languages</h2>
                             <span class="row-span">${doctor.languages}</span>
                         </div>

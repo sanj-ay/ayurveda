@@ -1,7 +1,7 @@
 doctors = [{
   name:"Dr. Satheesh Vasudev",
   qualification:"BAMS MS (SHALYA TANTRA)",
-  specialities:"ORTHOPAEDICS, KSHARA SOOTRA, MARMA, ANO RECTAL CASES (PILES, FISTULA, FISSURE), VARICOSE VEIN AND ULCERS.",
+  specialities:"Orthopaedics, Kshara Sootra Marma, Ano Rectal Cases Piles, Fistula Fissure, Varicose Vein and Ulcers",
   years_exp:"10 years",
   current_job:"Chief Consultant Athreya Ayurveda,Zavidovo,Moscow",
   languages:"English, Malayalam, Hindi, Sanskrit (Read, Write and Spoken) Russian, Kannada and Tamil (spoken only) Russian, Kannada and Tamil (spoken only)",
@@ -12,7 +12,7 @@ doctors = [{
   name: "Dr. Parvathy Ravindran",
   qualification: "BAMS MD (KAYACHIKITSA)",
   specialities:
-    "GENERAL MEDICINE, COSMETOLOGY AND DERMATOLOGY,RESPIRATOR DISEASES, GASTROENTEROLOGY, KIDNEY AND URINARY DISEASES, RASAYANA AND REJUVINATION THERAPY,LIFE STYLE DISORDERS.",
+    "General Medicine, Cosmetology & Dermatology,Respirator Diseases, Gastroenterology, Kidney and Urinary Diseases, Rasayana & Rejuvination Therapy, Life Style Disorders",
   years_exp: "10 years",
   current_job:
     "Chief consultant at Ayurdeva Ayurveda Centre,Irinjalakuda, Kerala",
@@ -26,7 +26,7 @@ doctors = [{
     name: "Dr.Indu S",
     qualification: "BAMS MD (PANCHAKARMA)",
     specialities:
-      "DETOXIFICATION AND CHRONIC JOINT DISORDERS, ARTHRITIS,RHEUMATOLOGY, NEUROLOGY, MUSCULOSKELETAL DISEASES,STRESS, INSOMNIA, ANXIETY",
+      "Detoxification & Chronic Joint Disorders, Arthritis Rheumatology, Neurology Musculoskeletal Diseases, Stress, Insomnia, Anxiety",
     years_exp: "10 years",
     current_job:
       "Assistant Professor and Consultant Govt. Ayurveda College,Tripunithura, Kerala",
@@ -39,7 +39,7 @@ doctors = [{
     name: "Dr.Shibila K",
     qualification: "BAMS MS (PRASUTI TANTRA AND STREEROGA)",
     specialities:
-      "GYNAECOLOGIST AND INFERTILITY SPECIALIST, ADOLESCENT CARE, COMPREHENSIVE CARE FOR WOMEN – PRECONCEPTIONAL,ANTINATAL, POSTNATAL",
+      "Gynaecologist and Infertility, Adolescent Care, Comprehensive Care For Women–Preconceptional, Antinatal, Postnatal",
     years_exp: "10 years",
     current_job:
       "Assistant Professor,Govt. Ayurveda College,Tripunithura, Kerala",
@@ -53,7 +53,7 @@ doctors = [{
     name: "Dr. Greeshma Purushothaman",
     qualification: "BAMS MD(Ayu)",
     specialities:
-      "COMMON PEDIATRIC AILMENTS, EXCLUSIVE NEWBORN CARE,DEVELOPMENTAL DISORDERS IN CHILDREN, DIET AND NUTRITION FOR KIDS",
+      "Common Pediatric Ailments, Exclusive Newborn Care, Developmental Disorders, In Children Diet & Nutrition For Kids",
     years_exp: "7 years",
     current_job:
       "Assistant Professor and Consultant Ashtamgam Ayurveda Chikitsalayam and Vidyapeedham Palakkad, Kerala",
@@ -65,7 +65,7 @@ doctors = [{
   {
     name: "Dr.Pooja M",
     qualification: "BNYS, MSc Clinical Nutrition",
-    specialities:"NUTRITION, YOGA AND NATUROPATH",
+    specialities:"Nutrition, Yoga & Naturopath",
     years_exp: "6 years",
     current_job:
       "",

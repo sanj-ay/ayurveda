@@ -90,6 +90,7 @@ h1 {
 .row-span {
     font-size: 15px;
     font-weight: 400;
+    text-align: justify
 }
 
 .button-row {
@@ -224,6 +225,20 @@ footer {
 .consult {
     margin-left: 10px;
 }
+.specialities{
+    min-height: 150px;
+    max-height: 150px;
+
+}
+.experience{
+    min-height: 50px;
+    max-height: 600px;
+}
+.lang{
+    min-height: 100px;
+}
+
+
 
 @media (max-device-width: 640px) {
     .homepage-desc {
