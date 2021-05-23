@@ -187,7 +187,7 @@ footer {
 
 .doctor-dialog {
     border-radius: 10px;
-    max-width: 40%;
+    max-width: 100%;
 }
 
 .modal-content {
@@ -231,13 +231,33 @@ footer {
 
 }
 .experience{
-    min-height: 50px;
-    max-height: 600px;
+    min-height: 100px;
+    max-height: 100px;
+}
+.spec-span{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: justify;
+}
+.experience{
+    min-height: 10px;
+    max-height: 100px;
 }
 .lang{
     min-height: 100px;
+    
 }
-
+.d-name{
+    font-weight: 1000;
+    font-size: 50px;
+}
+.d-quali{
+    font-weight: 700;
+    font-size: 35px;
+}
+.about{
+    font-size:20px;
+}
 
 
 @media (max-device-width: 640px) {
@@ -248,11 +268,17 @@ footer {
     .name {
         font-size: 50px;
     }
+    .doctor-dialog{
+        width: 100% !important;
+    }
 }
 
 @media (max-device-width: 576px) {
     .modal-dialog {
         font-size: 2rem;
         margin: 1.75rem auto;
+    }
+    .doctor-dialog{
+        width: 100%;
     }
 }

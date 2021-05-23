@@ -20,21 +20,21 @@ doctors.forEach((doctor) => {
                         <i class="bi bi-star-fill card-logo"></i>
                         <div class="specialities">
                             <h2 class="row-head">Specialities</h2>
-                            <span class="row-span">${doctor.specialities}</span>
+                            <span class="row-span spec-span">${doctor.specialities}</span>
                         </div>
                     </div>
-                    <div class="card-row experience">
+                    <div class="card-row ">
                         <i class="bi bi-briefcase-fill card-logo"></i>
-                        <div>
+                        <div class="experience">
                             <h2 class="row-head experience">Experience - ${doctor.years_exp}</h2>
-                            <span class="row-span">${doctor.current_job}</span>
+                            <span class="row-span spec-span">${doctor.current_job}</span>
                         </div>
                     </div>
                     <div class="card-row">
                         <i class="bi bi-megaphone-fill card-logo"></i>
                         <div class="lang">
                             <h2 class="row-head">Known Languages</h2>
-                            <span class="row-span">${doctor.languages}</span>
+                            <span class="row-span spec-span">${doctor.languages}</span>
                         </div>
                     </div>
                     <div class="button-row">
@@ -57,8 +57,8 @@ doctors.forEach((doctor) => {
             <div class="modal-header" style="border: none;">
                 <div class="round"><img src="./assets/images/${doctor.image}"></div>
                 <div class="modal-qualifications">
-                    <span>${doctor.name}</span>
-                    <span>${doctor.qualification}</span>
+                    <span class="d-name">${doctor.name}</span>
+                    <span class="d-quali">${doctor.qualification}</span>
                 </div>
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -67,7 +67,7 @@ doctors.forEach((doctor) => {
             </div>
             <div class="modal-body" style="text-align: justify; ">
                 <h2>About</h2>
-                <p>${doctor.about}</p>
+                <p class="about">${doctor.about}</p>
             </div>
             <div class="modal-footer" style="border: none;">
                 <button type="button" class="btn btn-primary appointment-modal">

@@ -4,7 +4,7 @@ doctors = [{
   specialities:"Orthopaedics, Kshara Sootra Marma, Ano Rectal Cases Piles, Fistula Fissure, Varicose Vein and Ulcers",
   years_exp:"10 years",
   current_job:"Chief Consultant Athreya Ayurveda,Zavidovo,Moscow",
-  languages:"English, Malayalam, Hindi, Sanskrit (Read, Write and Spoken) Russian, Kannada and Tamil (spoken only) Russian, Kannada and Tamil (spoken only)",
+  languages:"English, Malayalam, Hindi, Sanskrit, Russian, Kannada & Tamil (spoken only) Russian, Kannada & Tamil (spoken only)",
   image:"satheesh.jpeg",
   about:"Dr Satheesh Vasudev hailing from an Ayurvedic traditional family having about 360 years of lineage in Ayurveda, currently designated as the chief consultant at Athreya Ayurveda, at Zavidovo, Moscow, Russia. He has completed his post-graduation in the department of shalya tantra (orthopaedics and surgery) in Ayurveda. He is the beloved student of P.Madhavankutty Warrier, Kottakal Aryavaidyasala, as he completed his Certificate in Rashtriya Ayurveda Vidyapeeth (CRAV) course at Kottakkal Arya Vaidya Sala. He has got well exposure in General Medicine and Panchakarma at the Arya Vaidya Sala Kottakal National Academy of Ayurveda under the guidance of his Guru, P. Madhavan Kutty Warrier Sir for one year. Dr Satheesh v dev has extended his service at the District Hospital in Pathanamthitta district, Kerala for one year as a Marma specialist. Dr Satheesh Vasudev has extensive experience in the application of Panchakarma therapy, the treatment of diseases of the musculoskeletal system, Varicose ulcers, diabetic ulcers, Chronic ulcers, circulatory diseases, piles, fistula in ano, tendonitis, bursitis, fracture and joint dislocations, calcaneal spur, diabetic non-healing wounds, varicose veins, skin tags, warts and so on. With the golden feather in his head, the ancestral background of Ayurvedic tradition in his family with special knowledge to ayurvedic management of orthopaedic conditions and marma therapy Dr Satheesh Vasudev applies an individual approach to each client and is sincerely dedicated to his life's work-helping people to strive to be healthy."
 },
@@ -15,9 +15,9 @@ doctors = [{
     "General Medicine, Cosmetology & Dermatology,Respirator Diseases, Gastroenterology, Kidney and Urinary Diseases, Rasayana & Rejuvination Therapy, Life Style Disorders",
   years_exp: "10 years",
   current_job:
-    "Chief consultant at Ayurdeva Ayurveda Centre,Irinjalakuda, Kerala",
+    "Chief consultant at Ayurdeva Ayurveda Centre, Irinjalakuda, Kerala",
   languages:
-    "English, Malayalam, Hindi, Sanskrit (Read, Write and Spoken),Kannada and Tamil (spoken only)",
+    "English, Malayalam, Hindi, Sanskrit,Kannada & Tamil (spoken only)",
   image:"paru.jpeg",
   about:"Dr Parvathy Ravindran is the founder and the chief consultant at drparvathy’sayurdeva, a  unique centre for panchakarma, cosmetology and yoga. She completed her post-graduation in the department of General medicine (kayachikitsa) in Ayurveda and later did her diploma in clinical cosmetology as well. Also extended her medical service as a Consultant at the National Ayurveda Research Institute for Panchakarma(NARIP) under the Ministry of  AYUSH, CCRAS for a period of three years (2016 to 2019). She is a dynamic doctor with ample experience in the field of Ayurveda for more than 6 years of practice and can handle all cases in general medicine especially lifestyle diseases, dermatological conditions, cosmetic issues (skin and hair problems) systemic illness, respiratory diseases, joint pathologies etc.  She promotes wellness through Ayurveda by practising rejuvenation therapy and detoxification therapy. Also advises on the customized diet plan and healthy living routines in  Ayurveda according to your body constitution."
 
@@ -29,9 +29,9 @@ doctors = [{
       "Detoxification & Chronic Joint Disorders, Arthritis Rheumatology, Neurology Musculoskeletal Diseases, Stress, Insomnia, Anxiety",
     years_exp: "10 years",
     current_job:
-      "Assistant Professor and Consultant Govt. Ayurveda College,Tripunithura, Kerala",
+      "Assistant Professor and Consultant Govt. Ayurveda College, Tripunithura, Kerala",
     languages:
-      "English, Malayalam, Hindi, Sanskrit (Read, Write and Spoken) Tamil (spoken only)",
+      "English, Malayalam, Hindi, Sanskrit, Tamil (spoken only)",
     image:"Indu.jpeg",
     about:
       "Dr Indu S is working in Govt. Ayurveda College, Tripunithura since 2019 as Assistant Professor in the Department of Panchakarma. Previously she has worked at Soukya Holistic International health centre, Bangalore from 2017 to 2018. She got ample exposure there to the holistic way of treatment combining Ayurveda, Homeopathy and Naturopathy. After which she moved backed to Kerala and worked at Aster AyurVaid, the Ayurveda wing of Aster Medcity. She propagated both wellness and curative aspects of Ayurveda among Nationals and International patients through their wellness OP. She is specialized in Panchakarma and has more than 5 years of experience. She can handle chronic joint disorders, arthritis, rheumatologic conditions, neurological conditions and musculoskeletal diseases, gastrointestinal diseases, issues like stress, anxiety and insomnia (sleeplessness). She is a very enthusiastic doctor who has bagged awards in paper presentations in various institutions. She completed her post-graduation at KUHS University by securing the third rank. She has also completed courses in Smrithi meditation (AYURVEDA PSYCHOTHERAPY), Clinical cosmetology, Cupping therapy and includes them in disease management.",
@@ -39,10 +39,10 @@ doctors = [{
     name: "Dr.Shibila K",
     qualification: "BAMS MS (PRASUTI TANTRA AND STREEROGA)",
     specialities:
-      "Gynaecologist and Infertility, Adolescent Care, Comprehensive Care For Women–Preconceptional, Antinatal, Postnatal",
+      "Gynaecologist & Infertility, Adolescent Care, Comprehensive Care For Women–Preconceptional, Antinatal, Postnatal",
     years_exp: "10 years",
     current_job:
-      "Assistant Professor,Govt. Ayurveda College,Tripunithura, Kerala",
+      "Assistant Professor, Govt. Ayurveda College,Tripunithura, Kerala",
     languages:
       "Malayalam , Hindi , English",
     image:"shibila.jpeg",
@@ -56,7 +56,7 @@ doctors = [{
       "Common Pediatric Ailments, Exclusive Newborn Care, Developmental Disorders, In Children Diet & Nutrition For Kids",
     years_exp: "7 years",
     current_job:
-      "Assistant Professor and Consultant Ashtamgam Ayurveda Chikitsalayam and Vidyapeedham Palakkad, Kerala",
+      "Assistant Professor & Consultant Ashtamgam Ayurveda Chikitsalayam and Vidyapeedham Palakkad, Kerala",
     languages:
       "Malayalam , English, Hindi, Kannada",
     image:"greeshma.jpeg",
