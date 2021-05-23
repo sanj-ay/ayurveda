@@ -1,213 +1,220 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  background: #4CA1AF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
-
+    font-family: "Montserrat", sans-serif;
+    background: #4CA1AF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
 }
 
 .name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px !important;
-  font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px !important;
+    font-weight: 900;
 }
 
 .homepage-desc {
-  color: #1f1235;
-  width: 30vw;
-  display: flex;
-  flex-direction: column;
-  margin-top: 150px;
+    color: #1f1235;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
 }
 
 .main-img {
-  margin-top: 150px;
-  max-width: -webkit-fill-available;
-  max-width: fill-available;
+    margin-top: 150px;
+    max-width: -webkit-fill-available;
+    max-width: fill-available;
 }
 
 .custom-card {
-  margin: 0 auto;
-  float: none;
-  margin-bottom: 50px;
-  color: #1f1235;
-  background-color: transparent;
-  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
-  border: none;
-  border-radius: 1%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 50px;
+    color: #1f1235;
+    background-color: transparent;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    border: none;
+    border-radius: 1%;
 }
 
 .card-title {
-  color: #1f1235;
+    color: #1f1235;
 }
 
 .card-logo {
-  font-size: 23px;
-  padding-right: 10px;
+    font-size: 23px;
+    padding-right: 10px;
 }
 
 .card-row {
-  display: flex;
-  margin-bottom: 25px;
+    display: flex;
+    margin-bottom: 25px;
 }
+
 .doctor-qualifications {
-  display: flex !important;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 .doctor-field {
-  margin-left: 15px;
-  margin-top: 5px;
-  font-size: 25px !important;
-  font-weight: 800;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 25px !important;
+    font-weight: 800;
 }
 
 .row-head {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .row-span {
-  font-size: 18px;
-  font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .button-row {
-  display: flex;
-  justify-content: center !important;
+    display: flex;
+    justify-content: center !important;
 }
 
 .appointment-btn {
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-  border: none;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    border: none;
 }
+
 .appointment-btn:hover {
-  background-color: #f25f4c;
-  border: none !important;
-  opacity: 0.8;
+    background-color: #f25f4c;
+    border: none !important;
+    opacity: 0.8;
 }
 
 .appointment-btn:focus {
-  background-color: #f25f4c;
-  border: none !important;
-  opacity: 0.8;
+    background-color: #f25f4c;
+    border: none !important;
+    opacity: 0.8;
 }
 
 .card-sub {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
-.doctor-image {
-  height: 250px;
-  width: 250px;
-  border: none;
-  border-radius: 3%;
-
+.doctor-image img {
+    height: 250px;
+    width: 250px;
+    border: none;
+    border-radius: 3%;
 }
 
 #doctor-slick {
-  margin: 50px;
+    margin: 50px;
 }
 
 #doctor-slick:focus {
-  border: none;
+    border: none;
 }
-footer {
-  display: flex;
-  justify-content: space-between;
-}
-.address {
-  display: flex;
-  flex-direction: column;
-}
-.social {
-  margin-left: 10px;
-}
-.reserved {
-  font-size: 13px;
-}
-.appointment-modal {
-  background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
- 
-  opacity: 0.9;
-  border: none;
 
+footer {
+    display: flex;
+    justify-content: space-between;
 }
-.appointment-modal:hover{
-  opacity: 0.8;
+
+.address {
+    display: flex;
+    flex-direction: column;
 }
-.btn:focus{
-  box-shadow: none !important;
-  }
-  .btn-primary:focus{
+
+.social {
+    margin-left: 10px;
+}
+
+.reserved {
+    font-size: 13px;
+}
+
+.appointment-modal {
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    opacity: 0.9;
+    border: none;
+}
+
+.appointment-modal:hover {
+    opacity: 0.8;
+}
+
+.btn:focus {
     box-shadow: none !important;
 }
+
+.btn-primary:focus {
+    box-shadow: none !important;
+}
+
 .whatsapp {
-  margin-top: 2px;
-  margin-right: 5px;
+    margin-top: 2px;
+    margin-right: 5px;
 }
-.round {
-  height: 150px;
-  width: 150px;
-  border-radius: 100%;
-  border: 1px solid black !important;
+
+.round img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 1px solid black !important;
 }
+
 .modal-qualifications {
-  margin-top: 15px !important;
-  margin-left: 10px !important;
-  display: flex;
-  flex-direction: column;
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+    display: flex;
+    flex-direction: column;
 }
-.hiw{
-  display: flex; 
-  flex-direction: row;
 
-  justify-content: space-between;
-  margin-top: 15px;
+.hiw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
 }
-.card-logo-m{
-  display:flex;
-  font-size: 28px;
-  flex-direction: column;
-  margin-top: 20px;
 
-
-
-
+.card-logo-m {
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    margin-top: 20px;
 }
-.row-span-m{
-  display: flex;
-  flex-direction: column;
-  margin-top: 15px;
-  font-size: 31px;
-  
 
-
-
+.row-span-m {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 31px;
 }
-.consult{
-  margin-left: 10px;
+
+.consult {
+    margin-left: 10px;
 }
 
 @media (max-device-width: 640px) {
-  .homepage-desc {
-    width: 100%;
-    font-size: 2rem;
-  }
-  .name {
-    font-size: 50px;
-  }
+    .homepage-desc {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .name {
+        font-size: 50px;
+    }
 }
+
 @media (max-device-width: 576px) {
-  .modal-dialog {
-    max-width: 100% !important;
-    font-size: 2rem;
-    margin: 1.75rem auto;
-  }
+    .modal-dialog {
+        max-width: 100% !important;
+        font-size: 2rem;
+        margin: 1.75rem auto;
+    }
 }
