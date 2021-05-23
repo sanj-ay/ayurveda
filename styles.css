@@ -106,7 +106,9 @@ h1 {
 .doctor-image {
   height: 250px;
   width: 250px;
-  border: 1px solid gray;
+  border: none;
+  border-radius: 3%;
+
 }
 
 #doctor-slick {
@@ -161,6 +163,36 @@ footer {
   margin-left: 10px !important;
   display: flex;
   flex-direction: column;
+}
+.hiw{
+  display: flex; 
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.card-logo-m{
+  display:flex;
+  font-size: 28px;
+  flex-direction: column;
+  margin-top: 20px;
+
+
+
+
+}
+.row-span-m{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  font-size: 31px;
+  
+
+
+
+}
+.consult{
+  margin-left: 10px;
 }
 
 @media (max-device-width: 640px) {
