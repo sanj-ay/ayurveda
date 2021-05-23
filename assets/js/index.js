@@ -26,7 +26,7 @@ doctors.forEach((doctor) => {
                     <div class="card-row">
                         <i class="bi bi-briefcase-fill card-logo"></i>
                         <div>
-                            <h2 class="row-head">Experience</h2>
+                            <h2 class="row-head">Experience - ${doctor.years_exp}</h2>
                             <span class="row-span">${doctor.current_job}</span>
                         </div>
                     </div>
