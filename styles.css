@@ -32,6 +32,10 @@ h1 {
     max-width: fill-available;
 }
 
+.meet-doctors {
+    padding: 30px 0px;
+}
+
 .custom-card {
     margin: 0 auto;
     float: none;
@@ -64,10 +68,18 @@ h1 {
 }
 
 .doctor-field {
+    display: block;
     margin-left: 15px;
     margin-top: 5px;
-    font-size: 25px !important;
     font-weight: 800;
+}
+
+.doctor-name {
+    font-size: 25px !important;
+}
+
+.doctor-qual {
+    font-size: 15px !important;
 }
 
 .row-head {
@@ -110,7 +122,7 @@ h1 {
     height: 250px;
     width: 250px;
     border: none;
-    border-radius: 3%;
+    border-radius: 100%;
 }
 
 #doctor-slick {

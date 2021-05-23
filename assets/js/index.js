@@ -10,8 +10,8 @@ doctors.forEach((doctor) => {
             <div style="display: flex; justify-content: flex-start">
                 <div class="doctor-image card-row"><img src="./assets/images/${doctor.image}"></div>
                 <div>
-                    <span class="doctor-field">${doctor.name}</span>
-                    <span class="doctor-field">${doctor.qualification}</span>
+                    <span class="doctor-field doctor-name">${doctor.name}</span>
+                    <span class="doctor-field doctor-qual">${doctor.qualification}</span>
                 </div>
             </div>
             <div class="card-text">
